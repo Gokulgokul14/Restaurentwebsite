@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Location page</title>
+        <style>
+            .title{  
+                font-size: 35px;
+                margin-left: 350px;
+            }
+            .search{
+                font-size: 25px;
+                width: 70%;
+                border-radius: 15px;
+                border: solid 1px rgba(147, 146, 146, 0.855);
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            .location{
+                margin-left: 350px;
+                margin-top: 25px;
+                font-size: 35px;
+                display: inline;
+                color: rgba(220, 67, 11, 0.956);
+                &:hover{
+                    cursor: pointer;
+                    color: rgb(255, 68, 0);
+                }
+            }
+            .recentsearch{
+                font-size: 20px;
+                color: gray;
+                display: inline;
+                margin-left: 350px;
+                &:hover{
+                    color: rgba(36, 36, 36, 0.89);
+                    cursor: pointer;
+                }
+            }
+            .history{
+                color: gray;
+                text-align: center;
+                margin-top: 60px;
+                font-size: large;
+            }
+            .back{
+                margin-left: 48%;
+                margin-top: 60px;
+                background-color: black;
+                color: white;
+                border-radius: 8px;
+                padding: 10px;transition: cubic-bezier(0.23, 1, 0.320, 1);
+                &:hover{
+                transform: scale(1.05);
+                background-color: rgba(25, 24, 24, 0.842);
+                cursor: pointer;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="title"><p><b>Enter your area name, door no or apartment name</b></p>
+        <input class="search" type="search" placeholder="🔍 Try JP Nagar, Siri Gardenia, etc..."></div>
+        <p class="location"><b>📌 Use my current location</b></p><hr style="color: gray; width: 54%;margin-bottom: 25px; margin-top: 15px;">
+        <p class="recentsearch">RECENT SEARCHES</p>
+        <P class="history">No recent locations</P>
+        <a href="home page.html"><input type="button" value="Go home" class="back"></a>
+    </body>
+</html>

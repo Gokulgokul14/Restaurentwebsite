@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Offers Restaurent</title>
+        <style>
+            * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        display: inline;
+    }
+    nav {
+        background-color: black;
+        color: white;
+        margin: 35px;
+        display: flex;
+        border: solid 2px gray;
+        border-radius: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+    
+    .st {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: inline;
+        color:white;
+        padding-left: 40px;
+    }
+    
+    ul {
+        display: inline;
+        padding-left: 50%;
+    }
+    
+    li {
+        display: inline;
+        padding-left: 40px;
+    }
+    
+    li:hover {
+        cursor: pointer;
+    }
+        h2 {
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .mind {
+        margin-left: 35px;
+    }
+
+    .main{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .des {
+        color: rgb(59, 59, 59);
+        padding: 10px;
+    }
+    .padd,
+    .off {
+    padding: 10px;
+    }
+     .loc{
+            color: black;
+            background-color: orange;
+            border-radius: 10px;
+            padding: 5px;
+           
+            &:hover{
+                cursor:pointer;
+                color: white;
+            }
+        }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        clear: both;
+        margin-top: 40px;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer hr {
+        width: 90%;
+        border: none;
+        border-top: 2px solid black;
+    }
+    .footer-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 30px;
+    }
+    .login {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .button{
+    padding: 10px 20px;
+    margin-left: 16px;
+    background-color: black; border-radius: 8px; color: aliceblue;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    &:hover{
+        transform: scale(1.05);
+        background-color: rgba(25, 24, 24, 0.842);
+    }
+}
+    .address {
+    text-align: center;
+    }
+    .dishes {
+        margin: 35px;
+        height: 250px;
+        width: 300px;
+        transition: transform 0.3s cubic-bezier(.25,.8,.25,1), box-shadow 0.3s;
+    }
+
+    .dishes:hover {
+        transform: scale(1.04);   
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </head>
+    <body>
+        <div>
+    <nav>
+        <p class="st">ᳩ Feel Taste</p>
+        <ul>
+            <li><a href="home page.html">Home |</a></li>
+            <li><a href="pure-veg page.html">Pure Veg |</a></li>
+            <li><a href="non-veg page.html">Non Veg |</a></li>
+            <li><a href="offers page.html"> Offers | </a></li>
+            <li><a href="login page.html"> Log in |</a></li>
+        </ul>
+    </nav> 
+    </div>
+    <h2 style="margin: 35px;">More than 50% Discount on foods!</h2>
+    <div class="main" style="margin: 20px">
+            <article class="dishes">
+            <img src="files/Pizza1.avif" alt="Pizza" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">60% OFF UPTO ₹120 DEALS</p>
+            <span class="padd"><strong>Pizza</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Pizza, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Pizza2.avif" alt="Pizza" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">60% OFF UPTO ₹120 DEALS</p>
+            <span class="padd"><strong>Pizza</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Pizza, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Pizza3.avif" alt="Pizza" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">60% OFF UPTO ₹120 DEALS</p>
+            <span class="padd"><strong>Pizza</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Pizza, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Pizza4.avif" alt="Pizza" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">60% OFF UPTO ₹120 DEALS</p>
+            <span class="padd"><strong>Pizza</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Pizza, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Dishes1.avif" alt="Meals" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Meals</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Meals, South Indian Dishes </p>
+        </article><article class="dishes">
+            <img src="files/Dishes2.avif" alt="Meals" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Meals</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Meals, South Indian Dishes </p>
+        </article><article class="dishes">
+            <img src="files/Dishes3.avif" alt="Meals" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Meals</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Meals, South Indian Dishes </p>
+        </article><article class="dishes">
+            <img src="files/Dishes4.avif" alt="Meals" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Meals</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Meals, South Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Dosa2.avif" alt="Dosa" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Dosa</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Dosa, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Dosa3.avif" alt="Dosa" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Dosa</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Dosa, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Sweet.1.avif" alt="Sweet" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Sweet</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Sweet, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Sweet2.avif" alt="Sweet" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Sweet</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Sweet, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Icecream1.avif" alt="Ice Cream" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">65% OFF UPTO ₹130 DEALS</p>
+            <span class="padd"><strong>Ice Cream</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Ice Cream, Chineese Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Icecream2.avif" alt="Ice Cream" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">65% OFF UPTO ₹130 DEALS</p>
+            <span class="padd"><strong>Ice Cream</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Ice Cream, Chineese Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Noodles3.avif" alt="Noodles" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">65% OFF UPTO ₹130 DEALS</p>
+            <span class="padd"><strong>Noodles</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Noodles, Chineese Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Noodles4.avif" alt="Noodles" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">65% OFF UPTO ₹130 DEALS</p>
+            <span class="padd"><strong>Noodles</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Noodles, Chineese Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/KFC1.avif" alt="Fried Chicken" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">65% OFF UPTO ₹130 DEALS</p>
+            <span class="padd"><strong>Fried Chicken</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Fried Chicken, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/KFC2.avif" alt="Fried Chicken" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Fried Chicken</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Fried Chicken, American Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Shawarma1.avif" alt="Shawarma" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Shawarma</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Shawarma, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Shawarma2.avif" alt="Shawarma" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Shawarma</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Shawarma, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Momos2.avif" alt="Momos" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">50% OFF UPTO ₹100 DEALS</p>
+            <span class="padd"><strong>Momos</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Momos, Chineese Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Noodles1.avif" alt="Noodles" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Noodles</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Noodles, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Biryani5.avif" alt="Biryani" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Biryani</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Biryani, Indian Dishes </p>
+        </article>
+        <article class="dishes">
+            <img src="files/Momos1.avif" alt="Momos" height="200"width="300" style="border-radius: 20px;">
+            <p class="off">55% OFF UPTO ₹110 DEALS</p>
+            <span class="padd"><strong>Momos</strong> - Available | </span><span><a class="loc" href="location page.html">Order now</a></span>
+            <p class="des">Momos, Chineese Dishes </p>
+        </article>
+        </div>
+        <footer>
+        <hr>
+        <div class="footer-row">
+            <strong style="font-size: 40px;">Go for the Home Page</strong>
+            <button class="button" type="submit">
+                <a href="home page.html" style="color: aliceblue; text-decoration: none;">Go home</a>
+            </button>
+        </div>
+        <section class="address">
+        <p><b><br>
+            Address : <br>
+            Lake house, hornway,<br>
+            London. <br><br>
+            Contact: <br>
+            9123455667. <br>
+            restaurent@gmail.com <br><br>
+            Opening: <br>
+            Monday-Friday <br>
+            10:00 AM-10:00 PM <br><br>
+        </p>
+        <p>Follow us on:</p>
+        <p><i class="fa-solid fa-facebook"></i> Spicy_Foods-Fb</p>
+        <p><i class="fa-solid fa-instagram"></i> Spicy_Foods-Insta</p>
+        <p><i class="fa-solid fa-twitter"></i> Spicy_Foods-Tweet</p>
+        <p class="copy">&copy; 2023 Restaurent. All rights reserved.</p>
+        </b>
+    </section>
+    </footer>
+    </body>
+</html>
